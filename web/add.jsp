@@ -24,7 +24,7 @@
         
                     <form name="addForm" action="addCustomer" method="get">
 
-                        <table id="lookTable" align="center">
+                        <table>
                             <tbody>
                                 <tr>
                                     <td class="right">First Name:</td>
@@ -69,15 +69,23 @@
                             </tbody>
                         </table>
 
-                        <div id="bottom">
-                           
+                  
+                            <br><br>
                             <input type="submit" name="submit" value="Submit"/>
-                        </div>
+                      
 
-                    </form> 
+                    </form>  
+                    
+                    <%@ include file="includes/search.jsp" %>
+                    <%@ include file="includes/footer.jsp" %>
+                   
             </div>
+                   
          </div>
-          
+         
+        
+         
+         
     </body>
     
 </html>

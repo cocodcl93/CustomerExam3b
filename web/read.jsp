@@ -26,9 +26,13 @@
                 <div class="main">
                     <h1>All Customers Contact Information</h1>
         
-                    <%= table%>
+                    <div id="readtable" >
+                        <%= table%>
+                    </div>
+                    
                 </div>
-                  
+        
+        <%@ include file="includes/search.jsp" %>
         <%@ include file="includes/footer.jsp" %>
         </div>
         

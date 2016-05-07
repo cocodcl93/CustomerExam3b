@@ -23,7 +23,7 @@
         
                          <form name="updateForm" action="updateCustomer" method="get">
 
-                         <table class="lookTable" align="center" >
+                         <table>
                             <tbody>
                                 
                                  <tr>
@@ -74,10 +74,10 @@
                             </tbody>
                         </table>
 
-                        <div id="bottom">
-                            
+                       
+                                <br><br>
                             <input type="submit" name="submit" value="Submit"/>
-                        </div>
+                       
 
                     </form> 
             </div>

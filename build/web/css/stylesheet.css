@@ -1,20 +1,16 @@
 
-
-
 table {border-collapse: collapse;}
 table, th, td {border: 1px solid black;}
 
-.input[readonly] {background-color: gray;}
+.input[readonly] {background-color: #FFE599;}
 .right {text-align: right;}
 .add td{border: none;height: 25px;padding: 10px;font-weight: bold;}
 
 .update td{border: none;height: 25px;padding: 10px;font-weight: bold;}
 
-.lookTable {
 
-}
 
-body{background-color: activeborder;}
+body{background-color: #9FC5E8;}
 
 /* formats main page content */
 .main { text-align:left; padding:25px;}
@@ -23,7 +19,7 @@ body{background-color: activeborder;}
 .footer{ text-align:left; padding:25px;}
 
 /* wrapper div that holds all of the content divs for the page */
-.wrap {background-color:#01A9DB; color:white; text-align:center; width:90%; margin:0 auto; border: 1px solid black; margin-top:25px;}
+.wrap {background-color:#FFD966; color:black; text-align:center; width:90%; margin:0 auto; border: 1px solid black; margin-top:25px;}
 
 /* formats the page header */
 .header { text-align:left; padding:25px;}
@@ -74,4 +70,19 @@ body{background-color: activeborder;}
  /*End hide*/
  /*Mac IE 5*/
  * html #navlist li:first-child { border-left: 0; }
- 
+
+#readtable{
+    width:70%;
+    background-color: white;
+    padding:10px;
+}
+
+tr:hover {
+       background-color: whitesmoke;
+   }
+   
+
+tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+        

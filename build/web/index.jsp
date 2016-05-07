@@ -20,6 +20,8 @@
          
          <%@ include file="includes/menu.jsp" %>
          
+         
+         
          <div class="main">
                 <h1>Customer Contact Database</h1>
                 
@@ -36,6 +38,8 @@
                 </p>
                  
           </div>
+         
+         <%@ include file="includes/search.jsp" %>
          
          <%@ include file="includes/footer.jsp" %>
      
