@@ -13,9 +13,16 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
     </head>
     <body>
-        <h1>Add A New Customer</h1>
+        <div class="wrap">
+
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">
+                    <h1>Add A New Customer</h1>
         
-        <form name="addForm" action="addCustomer" method="get">
+                    <form name="addForm" action="addCustomer" method="get">
 
                         <table id="lookTable" align="center">
                             <tbody>
@@ -68,7 +75,9 @@
                         </div>
 
                     </form> 
-            
+            </div>
+         </div>
+          
     </body>
     
 </html>

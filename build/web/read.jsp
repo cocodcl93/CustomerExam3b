@@ -17,14 +17,21 @@
     
     
     <body>
-        <h1>List All Customers Information</h1>
+        <div class="wrap">
+
+        <%@ include file="includes/header.jsp" %>
+
+        <%@ include file="includes/menu.jsp" %>
+
+                <div class="main">
+                    <h1>All Customers Contact Information</h1>
         
-        <%= table%>
+                    <%= table%>
+                </div>
+                  
+        <%@ include file="includes/footer.jsp" %>
+        </div>
         
-        <br><br>
-        <a href ="add"> Add A New Customer</a>
-        <br><br>
-         <a href="search.jsp"> Search a Customer Information</a>
         
     </body>
 </html>

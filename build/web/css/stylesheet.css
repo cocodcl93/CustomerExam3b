@@ -1,5 +1,5 @@
 
-body {background-color: yellow;}
+
 
 table {border-collapse: collapse;}
 table, th, td {border: 1px solid black;}
@@ -14,4 +14,64 @@ table, th, td {border: 1px solid black;}
 
 }
 
+body{background-color: activeborder;}
 
+/* formats main page content */
+.main { text-align:left; padding:25px;}
+
+/* formats the page footer */
+.footer{ text-align:left; padding:25px;}
+
+/* wrapper div that holds all of the content divs for the page */
+.wrap {background-color:#01A9DB; color:white; text-align:center; width:90%; margin:0 auto; border: 1px solid black; margin-top:25px;}
+
+/* formats the page header */
+.header { text-align:left; padding:25px;}
+.headerImg{float:left; width:200px; text-align:center;}
+.headerText{float:left; height:105px; padding-top:25px; padding-left:50px;}
+
+/*Fat Erik's Pipelist*/
+ /*http://css.maxdesign.com.au/listamatic/horizontal32.htm*/
+ 
+.navcontainer { margin-left: 30px; text-align:left;}
+
+
+ .navlist
+ {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ }
+
+ .navlist li
+ {
+ display: inline;
+ padding: 0;
+ margin: 0;
+ }
+
+ .navlist li:before { content: "| "; }
+ .navlist li:first-child:before { content: ""; }
+
+ /*IE workaround*/
+ /*All IE browsers*/
+ * html #navlist li
+ {
+ border-left: 1px solid black;
+ padding: 0 0.4em 0 0.4em;
+ margin: 0 0.4em 0 -0.4em;
+ }
+
+ /*Win IE browsers - hide from Mac IE\*/
+ * html #navlist { height: 1%; }
+
+ * html #navlist li
+ {
+ display: block;
+ float: left;
+ }
+
+ /*End hide*/
+ /*Mac IE 5*/
+ * html #navlist li:first-child { border-left: 0; }
+ 

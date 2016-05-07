@@ -12,12 +12,18 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
     </head>
     <body>
-        <h1>Update Customer Information</h1>
-        
-        
-                    <form name="updateForm" action="updateCustomer" method="get">
+        <div class="wrap">
 
-                        <table class="lookTable" align="center" >
+            <%@ include file="includes/header.jsp" %>
+
+            <%@ include file="includes/menu.jsp" %>
+
+            <div class="main">
+                         <h1>Update Customer Information</h1>
+        
+                         <form name="updateForm" action="updateCustomer" method="get">
+
+                         <table class="lookTable" align="center" >
                             <tbody>
                                 
                                  <tr>
@@ -68,13 +74,15 @@
                             </tbody>
                         </table>
 
-                        <div id="botton">
+                        <div id="bottom">
                             
                             <input type="submit" name="submit" value="Submit"/>
                         </div>
 
                     </form> 
-           
-        
+            </div>
+                 <%@ include file="includes/footer.jsp" %>
+        </div>
+      
     </body>
 </html>
